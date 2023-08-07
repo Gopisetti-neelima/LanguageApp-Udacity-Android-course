@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:theme="@style/dataTabStyle"
+            android:id="@+id/numbers_button"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="Numbers"
+            android:textColor="@color/white"
+            android:background="@color/orange"
+            />
+        <TextView
+            android:id="@+id/family_button"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:theme="@style/dataTabStyle"
+            android:text="Family Members"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            />
+        <TextView
+            android:id="@+id/colours_button"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="Colours"
+            android:theme="@style/dataTabStyle"
+            android:background="@color/violet"
+            />
+        <TextView
+            android:id="@+id/phrases_button"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:theme="@style/dataTabStyle"
+            android:text="Phrases"
+            android:background="@color/blue"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>
